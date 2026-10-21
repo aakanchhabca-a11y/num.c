@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main(){
     int n;
+    int rem;
     printf("enter a number : ");
     scanf("%d" ,&n);
     while(n>0){
-        n=n%10;
-        printf("%d\n" , n);
+        rem=n%10;
+        printf("%d\n" , rem);
         n=n/10;
         printf("%d\n" , n);
     }
